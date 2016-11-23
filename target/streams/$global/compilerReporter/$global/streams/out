@@ -1,0 +1,7 @@
+[0m[[33mwarn[0m] [0m/Users/nandpa/Documents/Intellij/ScalaPlayDemo/app/controllers/Articles.scala:64: method cursor in trait GenericQueryBuilder is deprecated: Use [[cursor]] function with read preference.[0m
+[0m[[33mwarn[0m] [0m    val found = collection.find(query).cursor[Article][0m
+[0m[[33mwarn[0m] [0m                                       ^[0m
+[0m[[33mwarn[0m] [0m/Users/nandpa/Documents/Intellij/ScalaPlayDemo/app/controllers/CharactersController.scala:73: method cursor in trait GenericQueryBuilder is deprecated: Use [[cursor]] function with read preference.[0m
+[0m[[33mwarn[0m] [0m    val found = collection.find(query).cursor[Characters][0m
+[0m[[33mwarn[0m] [0m                                       ^[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m

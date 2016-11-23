@@ -1,0 +1,21 @@
+@(characters: List[models.Characters], activeSort: String)
+
+@main("Welcome to Play 2.0") {
+    <div class="row">
+        <div class="span12">
+            <h2>Available characters</h2>
+            @if(characters.isEmpty) {
+                <p>No characters available yet.</p>
+            } else {
+                <ul>
+                @characters.map { article =>
+                    <li>@article.name <em>by @article.className</em> - </li>
+                }
+                </ul>
+            }
+            <div>
+
+            </div>
+        </div>
+    </div>
+}
