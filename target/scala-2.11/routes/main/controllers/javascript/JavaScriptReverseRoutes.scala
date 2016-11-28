@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/nandpa/Documents/Intellij/ScalaPlayDemo/conf/routes
-// @DATE:Wed Nov 23 14:51:58 PST 2016
+// @DATE:Sun Nov 27 23:39:14 PST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -122,17 +122,27 @@ package controllers.javascript {
     }
 
   
-    // @LINE:19
-    def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.CharactersController.delete",
+    // @LINE:17
+    def createForm: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.CharactersController.createForm",
       """
-        function(id) {
-          return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "characters/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "characters/create"})
         }
       """
     )
   
-    // @LINE:18
+    // @LINE:20
+    def getCharacterJSON: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.CharactersController.getCharacterJSON",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "characters/json/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
+        }
+      """
+    )
+  
+    // @LINE:22
     def edit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CharactersController.edit",
       """
@@ -142,12 +152,42 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:17
+    // @LINE:18
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CharactersController.create",
       """
         function() {
           return _wA({method:"PUT", url:"""" + _prefix + { _defaultPrefix } + """" + "characters"})
+        }
+      """
+    )
+  
+    // @LINE:21
+    def showEditForm: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.CharactersController.showEditForm",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "characters/edit/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
+        }
+      """
+    )
+  
+    // @LINE:19
+    def getCharacter: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.CharactersController.getCharacter",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "characters/html/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
+        }
+      """
+    )
+  
+    // @LINE:23
+    def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.CharactersController.delete",
+      """
+        function(id) {
+          return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "characters/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
         }
       """
     )
@@ -164,7 +204,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:22
+  // @LINE:26
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -172,7 +212,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:22
+    // @LINE:26
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """

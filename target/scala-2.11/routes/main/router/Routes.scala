@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/nandpa/Documents/Intellij/ScalaPlayDemo/conf/routes
-// @DATE:Wed Nov 23 14:51:58 PST 2016
+// @DATE:Sun Nov 27 23:39:14 PST 2016
 
 package router
 
@@ -19,7 +19,7 @@ class Routes(
   Articles_2: controllers.Articles,
   // @LINE:16
   CharactersController_1: controllers.CharactersController,
-  // @LINE:22
+  // @LINE:26
   Assets_0: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -30,7 +30,7 @@ class Routes(
     Articles_2: controllers.Articles,
     // @LINE:16
     CharactersController_1: controllers.CharactersController,
-    // @LINE:22
+    // @LINE:26
     Assets_0: controllers.Assets
   ) = this(errorHandler, Articles_2, CharactersController_1, Assets_0, "/")
 
@@ -56,7 +56,11 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """attachments/$id<[^/]+>""", """controllers.Articles.getAttachment(id:String)"""),
     ("""DELETE""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """attachments/$id<[^/]+>""", """controllers.Articles.removeAttachment(id:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters""", """controllers.CharactersController.index"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters/create""", """controllers.CharactersController.createForm"""),
     ("""PUT""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters""", """controllers.CharactersController.create"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters/html/$id<[^/]+>""", """controllers.CharactersController.getCharacter(id:String)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters/json/$id<[^/]+>""", """controllers.CharactersController.getCharacterJSON(id:String)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters/edit/$id<[^/]+>""", """controllers.CharactersController.showEditForm(id:String)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters/$id<[^/]+>""", """controllers.CharactersController.edit(id:String)"""),
     ("""DELETE""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """characters/$id<[^/]+>""", """controllers.CharactersController.delete(id:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
@@ -238,10 +242,27 @@ class Routes(
   )
 
   // @LINE:17
-  private[this] lazy val controllers_CharactersController_create10_route = Route("PUT",
+  private[this] lazy val controllers_CharactersController_createForm10_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters/create")))
+  )
+  private[this] lazy val controllers_CharactersController_createForm10_invoker = createInvoker(
+    CharactersController_1.createForm,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.CharactersController",
+      "createForm",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """characters/create"""
+    )
+  )
+
+  // @LINE:18
+  private[this] lazy val controllers_CharactersController_create11_route = Route("PUT",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters")))
   )
-  private[this] lazy val controllers_CharactersController_create10_invoker = createInvoker(
+  private[this] lazy val controllers_CharactersController_create11_invoker = createInvoker(
     CharactersController_1.create,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -254,11 +275,62 @@ class Routes(
     )
   )
 
-  // @LINE:18
-  private[this] lazy val controllers_CharactersController_edit11_route = Route("POST",
+  // @LINE:19
+  private[this] lazy val controllers_CharactersController_getCharacter12_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters/html/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_CharactersController_getCharacter12_invoker = createInvoker(
+    CharactersController_1.getCharacter(fakeValue[String]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.CharactersController",
+      "getCharacter",
+      Seq(classOf[String]),
+      "GET",
+      """""",
+      this.prefix + """characters/html/$id<[^/]+>"""
+    )
+  )
+
+  // @LINE:20
+  private[this] lazy val controllers_CharactersController_getCharacterJSON13_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters/json/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_CharactersController_getCharacterJSON13_invoker = createInvoker(
+    CharactersController_1.getCharacterJSON(fakeValue[String]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.CharactersController",
+      "getCharacterJSON",
+      Seq(classOf[String]),
+      "GET",
+      """""",
+      this.prefix + """characters/json/$id<[^/]+>"""
+    )
+  )
+
+  // @LINE:21
+  private[this] lazy val controllers_CharactersController_showEditForm14_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters/edit/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_CharactersController_showEditForm14_invoker = createInvoker(
+    CharactersController_1.showEditForm(fakeValue[String]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.CharactersController",
+      "showEditForm",
+      Seq(classOf[String]),
+      "GET",
+      """""",
+      this.prefix + """characters/edit/$id<[^/]+>"""
+    )
+  )
+
+  // @LINE:22
+  private[this] lazy val controllers_CharactersController_edit15_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters/"), DynamicPart("id", """[^/]+""",true)))
   )
-  private[this] lazy val controllers_CharactersController_edit11_invoker = createInvoker(
+  private[this] lazy val controllers_CharactersController_edit15_invoker = createInvoker(
     CharactersController_1.edit(fakeValue[String]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -271,11 +343,11 @@ class Routes(
     )
   )
 
-  // @LINE:19
-  private[this] lazy val controllers_CharactersController_delete12_route = Route("DELETE",
+  // @LINE:23
+  private[this] lazy val controllers_CharactersController_delete16_route = Route("DELETE",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("characters/"), DynamicPart("id", """[^/]+""",true)))
   )
-  private[this] lazy val controllers_CharactersController_delete12_invoker = createInvoker(
+  private[this] lazy val controllers_CharactersController_delete16_invoker = createInvoker(
     CharactersController_1.delete(fakeValue[String]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -288,11 +360,11 @@ class Routes(
     )
   )
 
-  // @LINE:22
-  private[this] lazy val controllers_Assets_at13_route = Route("GET",
+  // @LINE:26
+  private[this] lazy val controllers_Assets_at17_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_at13_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_at17_invoker = createInvoker(
     Assets_0.at(fakeValue[String], fakeValue[String]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -369,27 +441,51 @@ class Routes(
       }
   
     // @LINE:17
-    case controllers_CharactersController_create10_route(params) =>
+    case controllers_CharactersController_createForm10_route(params) =>
       call { 
-        controllers_CharactersController_create10_invoker.call(CharactersController_1.create)
+        controllers_CharactersController_createForm10_invoker.call(CharactersController_1.createForm)
       }
   
     // @LINE:18
-    case controllers_CharactersController_edit11_route(params) =>
-      call(params.fromPath[String]("id", None)) { (id) =>
-        controllers_CharactersController_edit11_invoker.call(CharactersController_1.edit(id))
+    case controllers_CharactersController_create11_route(params) =>
+      call { 
+        controllers_CharactersController_create11_invoker.call(CharactersController_1.create)
       }
   
     // @LINE:19
-    case controllers_CharactersController_delete12_route(params) =>
+    case controllers_CharactersController_getCharacter12_route(params) =>
       call(params.fromPath[String]("id", None)) { (id) =>
-        controllers_CharactersController_delete12_invoker.call(CharactersController_1.delete(id))
+        controllers_CharactersController_getCharacter12_invoker.call(CharactersController_1.getCharacter(id))
+      }
+  
+    // @LINE:20
+    case controllers_CharactersController_getCharacterJSON13_route(params) =>
+      call(params.fromPath[String]("id", None)) { (id) =>
+        controllers_CharactersController_getCharacterJSON13_invoker.call(CharactersController_1.getCharacterJSON(id))
+      }
+  
+    // @LINE:21
+    case controllers_CharactersController_showEditForm14_route(params) =>
+      call(params.fromPath[String]("id", None)) { (id) =>
+        controllers_CharactersController_showEditForm14_invoker.call(CharactersController_1.showEditForm(id))
       }
   
     // @LINE:22
-    case controllers_Assets_at13_route(params) =>
+    case controllers_CharactersController_edit15_route(params) =>
+      call(params.fromPath[String]("id", None)) { (id) =>
+        controllers_CharactersController_edit15_invoker.call(CharactersController_1.edit(id))
+      }
+  
+    // @LINE:23
+    case controllers_CharactersController_delete16_route(params) =>
+      call(params.fromPath[String]("id", None)) { (id) =>
+        controllers_CharactersController_delete16_invoker.call(CharactersController_1.delete(id))
+      }
+  
+    // @LINE:26
+    case controllers_Assets_at17_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at13_invoker.call(Assets_0.at(path, file))
+        controllers_Assets_at17_invoker.call(Assets_0.at(path, file))
       }
   }
 }

@@ -11,6 +11,3 @@ routesGenerator := InjectedRoutesGenerator
 fork in run := false
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
-
-fork in run := true

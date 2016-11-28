@@ -1,5 +1,5 @@
 package models
-import play.api.data.Forms.{longNumber, mapping, nonEmptyText, number, optional, text}
+import play.api.data.Forms.{longNumber, bigDecimal, mapping, nonEmptyText, number, optional, text}
 import play.api.data.validation.Constraints.pattern
 import play.api.data._
 
@@ -9,17 +9,17 @@ case class Characters(
         className : String,
         race : String,
         strength_stat : Int,
-        strength_mod : Long,
+        strength_mod : BigDecimal,
         dex_stat : Int,
-        dex_mod : Long,
+        dex_mod : BigDecimal,
         con_stat : Int,
-        con_mod : Long,
+        con_mod : BigDecimal,
         intl_stat : Int,
-        intl_mod : Long,
+        intl_mod : BigDecimal,
         wsdm_stat : Int,
-        wsdm_mod : Long,
+        wsdm_mod : BigDecimal,
         chr_stat : Int,
-        chr_mod : Long,
+        chr_mod : BigDecimal,
         ac : Int
     )
 
@@ -57,17 +57,17 @@ object Characters {
         val className = (obj \ "className").as[String]
         val race = (obj \ "race").as[String]
         val strength_stat = (obj \ "strength_stat").as[Int]
-        val strength_mod = (obj \ "strength_mod").as[Long]
+        val strength_mod = (obj \ "strength_mod").as[BigDecimal]
         val dex_stat = (obj \ "dex_stat").as[Int]
-        val dex_mod = (obj \ "dex_mod").as[Long]
+        val dex_mod = (obj \ "dex_mod").as[BigDecimal]
         val con_stat = (obj \ "con_stat").as[Int]
-        val con_mod = (obj \ "con_mod").as[Long]
+        val con_mod = (obj \ "con_mod").as[BigDecimal]
         val intl_stat = (obj \ "intl_stat").as[Int]
-        val intl_mod = (obj \ "intl_mod").as[Long]
+        val intl_mod = (obj \ "intl_mod").as[BigDecimal]
         val wsdm_stat = (obj \ "wsdm_stat").as[Int]
-        val wsdm_mod = (obj \ "wsdm_mod").as[Long]
+        val wsdm_mod = (obj \ "wsdm_mod").as[BigDecimal]
         val chr_stat = (obj \ "chr_stat").as[Int]
-        val chr_mod = (obj \ "chr_mod").as[Long]
+        val chr_mod = (obj \ "chr_mod").as[BigDecimal]
         val ac = (obj \ "ac").as[Int]
 
         JsSuccess(Characters(id, name, className, race, strength_stat, strength_mod, dex_stat, dex_mod, con_stat, con_mod, intl_stat, intl_mod, wsdm_stat, wsdm_mod, chr_stat, chr_mod, ac))
@@ -87,17 +87,17 @@ object Characters {
       "className" -> nonEmptyText,
       "race" -> nonEmptyText,
       "strength_stat" ->  number,
-      "strength_mod" ->  longNumber,
+      "strength_mod" ->  bigDecimal,
       "dex_stat" -> number,
-      "dex_mod" ->   longNumber,
+      "dex_mod" ->   bigDecimal,
       "con_stat" ->  number,
-      "con_mod" -> longNumber,
+      "con_mod" -> bigDecimal,
       "intl_stat" -> number,
-      "intl_mod" -> longNumber,
+      "intl_mod" -> bigDecimal,
       "wsdm_stat" ->  number,
-      "wsdm_mod" -> longNumber,
+      "wsdm_mod" -> bigDecimal,
       "chr_stat" ->  number,
-      "chr_mod" -> longNumber,
+      "chr_mod" -> bigDecimal,
       "ac" -> number)
       {
       (id, name, className, race, strength_stat, strength_mod, dex_stat, dex_mod, con_stat, con_mod, intl_stat, intl_mod, wsdm_stat, wsdm_mod, chr_stat, chr_mod, ac) =>

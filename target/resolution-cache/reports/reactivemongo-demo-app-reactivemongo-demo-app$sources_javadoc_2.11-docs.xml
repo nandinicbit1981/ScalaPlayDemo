@@ -7,7 +7,7 @@
 		revision="0.11.0"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20161123145020"/>
+		date="20161127233216"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.11">
 			<revision name="2.4.0" status="release" pubdate="20150526230653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
@@ -192,9 +192,9 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.10.3.Final" status="release" pubdate="20150508083154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+			<revision name="3.10.3.Final" status="release" pubdate="20150508083154" resolver="maven-central" artresolver="maven-central" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="40">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="7041" time="0" location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
+				<metadata-artifact status="successful" details="" size="28829" time="111" location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
 				<caller organisation="reactivemongo-demo-app" name="reactivemongo-demo-app$sources_javadoc_2.11" conf="docs" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="0.11.0"/>
 				<artifacts>
 					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1324704" time="0" location="/Users/nandpa/.ivy2/cache/io.netty/netty/jars/netty-3.10.3.Final.jar">

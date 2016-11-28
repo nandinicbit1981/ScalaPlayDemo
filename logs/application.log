@@ -1,11 +1,11 @@
-2016-11-23 14:51:37,753 [INFO] from play.api.libs.concurrent.ActorSystemProvider in play-fork-run-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
-2016-11-23 14:51:37,816 [INFO] from play.core.server.NettyServer$ in play-fork-run-akka.actor.default-dispatcher-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
-2016-11-23 14:52:07,398 [WARN] from application in ForkJoinPool-1-worker-1 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
-2016-11-23 14:52:07,825 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-1-worker-1 - Starting application default Akka system: application
-2016-11-23 14:52:07,919 [WARN] from application in ForkJoinPool-1-worker-1 - application.langs is deprecated, use play.i18n.langs instead
-2016-11-23 14:52:07,990 [INFO] from application in ForkJoinPool-1-worker-1 - ReactiveMongoApi starting...
-2016-11-23 14:52:08,054 [INFO] from application in ForkJoinPool-1-worker-1 - ReactiveMongoApi successfully started with DB 'reactivemongo-demo-app'! Servers:
+2016-11-27 23:39:11,171 [INFO] from play.api.libs.concurrent.ActorSystemProvider in pool-4-thread-2 - Starting application default Akka system: application
+2016-11-27 23:39:11,234 [INFO] from play.core.server.NettyServer$ in pool-4-thread-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-11-27 23:39:25,358 [WARN] from application in ForkJoinPool-1-worker-1 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2016-11-27 23:39:26,143 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-1-worker-1 - Starting application default Akka system: application
+2016-11-27 23:39:26,235 [WARN] from application in ForkJoinPool-1-worker-1 - application.langs is deprecated, use play.i18n.langs instead
+2016-11-27 23:39:26,316 [INFO] from application in ForkJoinPool-1-worker-1 - ReactiveMongoApi starting...
+2016-11-27 23:39:26,411 [INFO] from application in ForkJoinPool-1-worker-1 - ReactiveMongoApi successfully started with DB 'reactivemongo-demo-app'! Servers:
 		[localhost:27017]
-2016-11-23 14:52:08,171 [INFO] from play.api.Play$ in ForkJoinPool-1-worker-1 - Application started (Dev)
-2016-11-23 14:52:08,253 [INFO] from application in application-akka.actor.default-dispatcher-3 - Checked index, result is Success(true)
-2016-11-23 14:52:08,665 [INFO] from application in application-akka.actor.default-dispatcher-6 - Checked index, result is Success(true)
+2016-11-27 23:39:26,523 [INFO] from play.api.Play$ in ForkJoinPool-1-worker-1 - Application started (Dev)
+2016-11-27 23:39:26,594 [INFO] from application in application-akka.actor.default-dispatcher-5 - Checked index, result is Success(true)
+2016-11-27 23:39:27,012 [INFO] from application in application-akka.actor.default-dispatcher-4 - Checked index, result is Success(true)

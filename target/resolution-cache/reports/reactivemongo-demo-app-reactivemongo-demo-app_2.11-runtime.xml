@@ -7,7 +7,7 @@
 		revision="0.11.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20161123145132"/>
+		date="20161127232359"/>
 	<dependencies>
 		<module organisation="org.reactivemongo" name="play2-reactivemongo_2.11">
 			<revision name="0.11.0.play24" status="release" pubdate="20150628074849" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
@@ -57,7 +57,7 @@
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-api">
 			<revision name="2.0.2" status="release" pubdate="20140816222403" resolver="maven-central" artresolver="maven-central" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="49">
-				<metadata-artifact status="successful" details="" size="8626" time="109" location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8626" time="82" location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom"/>
 				<caller organisation="org.reactivemongo" name="reactivemongo_2.11" conf="compile, runtime" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="0.11.0"/>
 				<artifacts>
 					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="122755" time="0" location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.0.2.jar">
@@ -171,7 +171,7 @@
 		<module organisation="io.netty" name="netty">
 			<revision name="3.10.3.Final" status="release" pubdate="20150508083154" resolver="maven-central" artresolver="maven-central" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, master(compile)" position="40">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="28829" time="148" location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
+				<metadata-artifact status="successful" details="" size="28829" time="117" location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
 				<caller organisation="org.reactivemongo" name="reactivemongo_2.11" conf="compile, runtime" rev="3.6.5.Final" rev-constraint-default="3.6.5.Final" rev-constraint-dynamic="3.6.5.Final" callerrev="0.11.0"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="default, compile, runtime, master" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.netty" name="netty-http-pipelining" conf="compile, runtime" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.1.4"/>

@@ -4,6 +4,7 @@ import models.Characters
 
 import scala.concurrent.Future
 
+import play.api.libs.json.{JsNull,Json,JsString,JsValue}
 
 import javax.inject.Inject
 
@@ -88,39 +89,102 @@ class CharactersController  @Inject() (
 //    Ok(views.html.characters(None, Characters.form, None))
 //  }
 
-//  def showEditForm(id: String) = Action.async { request =>
-//    // get the documents having this id (there will be 0 or 1 result)
-//    val futureCharacters = collection.find(Json.obj("_id" -> id)).one[Characters]
-//    // ... so we get optionally the matching article, if any
-//    // let's use for-comprehensions to compose futures (see http://doc.akka.io/docs/akka/2.0.3/scala/futures.html#For_Comprehensions for more information)
-//    for {
-//    // get a future option of article
-//      maybeCharacters <- futureCharacters
-//      // if there is some article, return a future of result with the article and its attachments
-//      result <- maybeCharacters.map { article =>
-//        // search for the matching attachments
-//        // find(...).toList returns a future list of documents (here, a future list of ReadFileEntry)
-//        gridFS.find[JsObject, JSONReadFile](
-//          Json.obj("article" -> article.id.get)).collect[List]().map { files =>
-//          val filesWithId = files.map { file =>
-//            file.id -> file
-//          }
-//
-//          implicit val messages = messagesApi.preferred(request)
-//
-//          Ok(views.html.editCharacters(Some(id),
-//            Characters.form.fill(article), Some(filesWithId)))
-//        }
-//      }.getOrElse(Future(NotFound))
-//    } yield result
-//  }
+  def showEditForm(id: String) = Action.async { request =>
+    // get the documents having this id (there will be 0 or 1 result)
+    val futureCharacters = collection.find(Json.obj("_id" -> id)).one[Characters]
+    // ... so we get optionally the matching article, if any
+    // let's use for-comprehensions to compose futures (see http://doc.akka.io/docs/akka/2.0.3/scala/futures.html#For_Comprehensions for more information)
+    for {
+    // get a future option of article
+      maybeCharacters <- futureCharacters
+      // if there is some article, return a future of result with the article and its attachments
+      result <- maybeCharacters.map { characters =>
+        // search for the matching attachments
+        // find(...).toList returns a future list of documents (here, a future list of ReadFileEntry)
+        gridFS.find[JsObject, JSONReadFile](
+          Json.obj("characters" -> characters.id.get)).collect[List]().map { files =>
+          val filesWithId = files.map { file =>
+            file.id -> file
+          }
+
+          implicit val messages = messagesApi.preferred(request)
+
+          // Ok(views.html.editCharacters(Some(id), Characters.form.fill(characters), Some(filesWithId)))
+          //Ok(views.html.editCharacters(Some(id), characters, Some(filesWithId)))
+          Ok(views.html.editCharacters(characters))
+
+        }
+      }.getOrElse(Future(NotFound))
+    } yield result
+  }
+
+  def getCharacter(id: String) = Action.async { request =>
+    // get the documents having this id (there will be 0 or 1 result)
+    val futureCharacters = collection.find(Json.obj("_id" -> id)).one[Characters]
+    // ... so we get optionally the matching article, if any
+    // let's use for-comprehensions to compose futures (see http://doc.akka.io/docs/akka/2.0.3/scala/futures.html#For_Comprehensions for more information)
+    for {
+    // get a future option of article
+      maybeCharacters <- futureCharacters
+      // if there is some article, return a future of result with the article and its attachments
+      result <- maybeCharacters.map { characters =>
+        // search for the matching attachments
+        // find(...).toList returns a future list of documents (here, a future list of ReadFileEntry)
+        gridFS.find[JsObject, JSONReadFile](
+          Json.obj("characters" -> characters.id.get)).collect[List]().map { files =>
+          val filesWithId = files.map { file =>
+            file.id -> file
+          }
+
+          implicit val messages = messagesApi.preferred(request)
+
+          // Ok(views.html.editCharacters(Some(id), Characters.form.fill(characters), Some(filesWithId)))
+          //Ok(views.html.editCharacters(Some(id), characters, Some(filesWithId)))
+          Ok(views.html.viewCharacters(characters))
+
+        }
+      }.getOrElse(Future(NotFound))
+    } yield result
+  }
+
+
+  def getCharacterJSON(id: String) = Action.async { request =>
+    // get the documents having this id (there will be 0 or 1 result)
+    val futureCharacters = collection.find(Json.obj("_id" -> id)).one[Characters]
+    // ... so we get optionally the matching article, if any
+    // let's use for-comprehensions to compose futures (see http://doc.akka.io/docs/akka/2.0.3/scala/futures.html#For_Comprehensions for more information)
+    for {
+    // get a future option of article
+      maybeCharacters <- futureCharacters
+      // if there is some article, return a future of result with the article and its attachments
+      result <- maybeCharacters.map { characters =>
+        // search for the matching attachments
+        // find(...).toList returns a future list of documents (here, a future list of ReadFileEntry)
+        gridFS.find[JsObject, JSONReadFile](
+          Json.obj("characters" -> characters.id.get)).collect[List]().map { files =>
+          val filesWithId = files.map { file =>
+            file.id -> file
+          }
+
+          implicit val messages = messagesApi.preferred(request)
+
+          // Ok(views.html.editCharacters(Some(id), Characters.form.fill(characters), Some(filesWithId)))
+          //Ok(views.html.editCharacters(Some(id), characters, Some(filesWithId)))
+          val json = Json.toJson(characters);
+
+          Ok(json)
+
+        }
+      }.getOrElse(Future(NotFound))
+    } yield result
+  }
 
   def create = Action.async { implicit request =>
     implicit val messages = messagesApi.preferred(request)
-
+    println("lolllerrrrrr")
     Characters.form.bindFromRequest.fold(
       errors => Future.successful(
-        Ok(views.html.editCharacters(None, errors, None))),
+        Ok(views.html.error())),
 
       // if no error, then insert the article into the 'articles' collection
       article => collection.insert(article.copy(
@@ -131,11 +195,10 @@ class CharactersController  @Inject() (
 
   def edit(id: String) = Action.async { implicit request =>
     implicit val messages = messagesApi.preferred(request)
-    import reactivemongo.bson.BSONDateTime
 
     Characters.form.bindFromRequest.fold(
       errors => Future.successful(
-        Ok(views.html.editCharacters(Some(id), errors, None))),
+        Ok(views.html.error())),
 
       characters => {
         // create a modifier document, ie a document that contains the update operations to run onto the documents matching the query
@@ -160,7 +223,6 @@ class CharactersController  @Inject() (
             "chr_mod" -> characters.chr_mod,
             "ac" -> characters.ac
           )
-
         )
 
         // ok, let's do the update
@@ -197,4 +259,8 @@ class CharactersController  @Inject() (
       Json.obj(sortBy: _*)
     }
 
+  def createForm() =  Action { request =>
+        implicit val messages = messagesApi.preferred(request)
+        Ok(views.html.characterscreate(None, Characters.form, None))
+   }
 }

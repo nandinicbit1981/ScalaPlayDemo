@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/nandpa/Documents/Intellij/ScalaPlayDemo/conf/routes
-// @DATE:Wed Nov 23 14:51:58 PST 2016
+// @DATE:Sun Nov 27 23:39:14 PST 2016
 
 package controllers;
 

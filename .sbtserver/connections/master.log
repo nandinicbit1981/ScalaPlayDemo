@@ -1,10 +1,7 @@
-New log file opened at Wed Nov 23 14:54:28 PST 2016 by 11701@Lmac3A55G8WP.local
-Taking next connection to: 52494
-New client attempting to connect on port: 52497-52494
-  Address = /10.111.56.154:52494
-This client on port 52497 has uuid 99474dd9-96d5-4bf4-b1ce-a0841ab64ce6 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-99474dd9-96d5-4bf4-b1ce-a0841ab64ce6
-Taking next connection to: 52494
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52494
+New log file opened at Sat Nov 26 00:51:47 PST 2016 by 77507@Lmac3A55G8WP.local
+Taking next connection to: 51458
+New client attempting to connect on port: 51459-51458
+  Address = /192.168.0.8:51458
+This client on port 51459 has uuid 994d06c3-09a0-4fcd-bed0-46f20f6e9d0f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-994d06c3-09a0-4fcd-bed0-46f20f6e9d0f
+Taking next connection to: 51458

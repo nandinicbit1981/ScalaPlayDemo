@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/nandpa/Documents/Intellij/ScalaPlayDemo/conf/routes
-// @DATE:Wed Nov 23 14:51:58 PST 2016
+// @DATE:Sun Nov 27 23:39:14 PST 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -82,22 +82,46 @@ package controllers {
     }
 
   
-    // @LINE:19
-    def delete(id:String): Call = {
+    // @LINE:17
+    def createForm(): Call = {
       import ReverseRouteContext.empty
-      Call("DELETE", _prefix + { _defaultPrefix } + "characters/" + implicitly[PathBindable[String]].unbind("id", dynamicString(id)))
+      Call("GET", _prefix + { _defaultPrefix } + "characters/create")
     }
   
-    // @LINE:18
+    // @LINE:20
+    def getCharacterJSON(id:String): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "characters/json/" + implicitly[PathBindable[String]].unbind("id", dynamicString(id)))
+    }
+  
+    // @LINE:22
     def edit(id:String): Call = {
       import ReverseRouteContext.empty
       Call("POST", _prefix + { _defaultPrefix } + "characters/" + implicitly[PathBindable[String]].unbind("id", dynamicString(id)))
     }
   
-    // @LINE:17
+    // @LINE:18
     def create(): Call = {
       import ReverseRouteContext.empty
       Call("PUT", _prefix + { _defaultPrefix } + "characters")
+    }
+  
+    // @LINE:21
+    def showEditForm(id:String): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "characters/edit/" + implicitly[PathBindable[String]].unbind("id", dynamicString(id)))
+    }
+  
+    // @LINE:19
+    def getCharacter(id:String): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "characters/html/" + implicitly[PathBindable[String]].unbind("id", dynamicString(id)))
+    }
+  
+    // @LINE:23
+    def delete(id:String): Call = {
+      import ReverseRouteContext.empty
+      Call("DELETE", _prefix + { _defaultPrefix } + "characters/" + implicitly[PathBindable[String]].unbind("id", dynamicString(id)))
     }
   
     // @LINE:16
@@ -108,14 +132,14 @@ package controllers {
   
   }
 
-  // @LINE:22
+  // @LINE:26
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:22
+    // @LINE:26
     def at(file:String): Call = {
       implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))

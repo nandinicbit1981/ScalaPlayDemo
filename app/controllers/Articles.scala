@@ -74,7 +74,6 @@ class Articles @Inject() (
 
   def showCreationForm = Action { request =>
     implicit val messages = messagesApi.preferred(request)
-
     Ok(views.html.editArticle(None, Article.form, None))
   }
 

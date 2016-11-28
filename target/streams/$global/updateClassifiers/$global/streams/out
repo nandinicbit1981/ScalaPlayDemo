@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0 [compile]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fdb9716
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1582b10
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3967684a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@689febe2
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	local: revision in cache: com.typesafe.play#twirl-api_2.11;1.1.1
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4839e802
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d450994
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.commons#commons-lang3;3.4 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-server_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-server_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ed7df
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@203291ee
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-server_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-server_2.11;2.4.0 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-server_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c8f5f63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d86cbba
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play_2.11;2.4.0
 [debug] 	found com.typesafe.play#play_2.11;2.4.0 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#build-link;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67b5d17
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52f62167
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#build-link;2.4.0
 [debug] 	found com.typesafe.play#build-link;2.4.0 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#build-link;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-exceptions;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75c2a784
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6439484f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.4.0
 [debug] 	found com.typesafe.play#play-exceptions;2.4.0 in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-exceptions;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.javassist#javassist;3.19.0-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.19.0-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@343a34f2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d1dba7c
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.19.0-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.19.0-GA
 [debug] 	found org.javassist#javassist;3.19.0-GA in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-iteratees_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63f5dfa7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@112e97e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.0 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-iteratees_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44c2cc99
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@589e9ee7
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57841bae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4934b152
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	local: revision in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-json_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73b323b2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f0a8863
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.0 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-json_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-functional_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11f428ab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d779b51
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.0 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-functional_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-datacommons_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6642642e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@527d361e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.0 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-datacommons_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->joda-time#joda-time;2.7 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609a62a5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@130c37bf
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.7
 [debug] 	local: revision in cache: joda-time#joda-time;2.7
 [debug] 	found joda-time#joda-time;2.7 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->joda-time#joda-time;2.7 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.joda#joda-convert;1.7 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2af0d1cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@791b1563
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.7
 [debug] 	local: revision in cache: org.joda#joda-convert;1.7
 [debug] 	found org.joda#joda-convert;1.7 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.joda#joda-convert;1.7 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang#scala-reflect;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@141114a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4255150c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
@@ -161,7 +161,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang#scala-reflect;2.11.6 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5227a5f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45b2b431
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.3
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.3 in sbt-chain
@@ -170,7 +170,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7460953
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57b73bf6
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.3
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.3 in sbt-chain
@@ -179,7 +179,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.core#jackson-annotations;2.5.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3deb9cda
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a5f0208
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.3
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.5.3
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.3 in sbt-chain
@@ -188,7 +188,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65444df5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3582c1a9
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3
 [debug] 	local: revision in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 in sbt-chain
@@ -197,7 +197,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3389974b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@163c4f9e
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3
 [debug] 	local: revision in cache: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 in sbt-chain
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-netty-utils;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-utils;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58657a29
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dfcf5f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-netty-utils;2.4.0
 [debug] 	found com.typesafe.play#play-netty-utils;2.4.0 in sbt-chain
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-netty-utils;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.slf4j#slf4j-api;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bd4dc67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cdfd684
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.12
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.12
 [debug] 	found org.slf4j#slf4j-api;1.7.12 in sbt-chain
@@ -224,7 +224,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.slf4j#slf4j-api;1.7.12 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a76109f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11e6d5bd
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.12
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.12
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.12 in sbt-chain
@@ -233,7 +233,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.slf4j#jul-to-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62e2c0e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d1fc761
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.12
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.12
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.12 in sbt-chain
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.slf4j#jcl-over-slf4j;1.7.12 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->ch.qos.logback#logback-core;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d53c110
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d904825
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.3
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.1.3
 [debug] 	found ch.qos.logback#logback-core;1.1.3 in sbt-chain
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->ch.qos.logback#logback-core;1.1.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->ch.qos.logback#logback-classic;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b163e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@541590bf
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.3
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.1.3
 [debug] 	found ch.qos.logback#logback-classic;1.1.3 in sbt-chain
@@ -260,7 +260,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cb7ae19
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3aef667b
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.11
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.11;2.3.11
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.11 in sbt-chain
@@ -269,7 +269,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.akka#akka-actor_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.akka#akka-slf4j_2.11;2.3.11 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71c0e1a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a438243
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.11
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.11
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.11 in sbt-chain
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.akka#akka-slf4j_2.11;2.3.11 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2363110
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@87ae13d
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
@@ -287,7 +287,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1316b61e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b819b0b
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -296,7 +296,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@175ce1ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ed45e2d
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -305,7 +305,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@398fddff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@739e2b79
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.inject#guice;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62804f62
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19eb468c
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;4.0
 [debug] 	local: revision in cache: com.google.inject#guice;4.0
 [debug] 	found com.google.inject#guice;4.0 in sbt-chain
@@ -323,7 +323,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.inject#guice;4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43bc7533
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@787d8f69
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	local: revision in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
@@ -332,7 +332,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d704e4a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@479916b6
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	local: revision in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
@@ -341,7 +341,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50005536
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4913cf5a
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->default(compile)]
 [info] Resolving com.google.inject.extensions#guice-assistedinject;4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d4a0dc7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75c0b38
 [debug] sbt-chain: module revision found in cache: com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 	local: revision in cache: com.google.inject.extensions#guice-assistedinject;4.0
 [debug] 	found com.google.inject.extensions#guice-assistedinject;4.0 in sbt-chain
@@ -359,7 +359,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.inject.extensions#guice-assistedinject;4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-netty-server_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6246a397
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@375aaa64
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-netty-server_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.4.0 in sbt-chain
@@ -368,16 +368,38 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-netty-server_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->io.netty#netty;3.10.3.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.10.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@258cf501
-[debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.3.Final
-[debug] 	local: revision in cache: io.netty#netty;3.10.3.Final
-[debug] 	found io.netty#netty;3.10.3.Final in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3055fe0d
+[debug] 		tried /Users/nandpa/.ivy2/local/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] 	local: no ivy file found for io.netty#netty;3.10.3.Final
+[debug] 		tried file:/Users/nandpa/.activator/repository/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for io.netty#netty;3.10.3.Final
+[debug] 		tried file:/usr/local/bin/activator/activator-dist-1.3.12/repository/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for io.netty#netty;3.10.3.Final
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] 	sbt-releases-repo: no ivy file found for io.netty#netty;3.10.3.Final
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.netty/netty/3.10.3.Final/ivys/ivy.xml
+[debug] 	sbt-plugins-repo: no ivy file found for io.netty#netty;3.10.3.Final
+[debug] 		tried http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom
+[debug] 	maven-central: found md file for io.netty#netty;3.10.3.Final
+[debug] 		=> http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom (3.10.3.Final)
+[debug] downloading http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom ...
+[debug] 	maven-central: downloading http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom
+[debug] 	maven-central: downloading http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom
+[debug] 	[SUCCESSFUL ] io.netty#netty;3.10.3.Final!netty.pom(pom.original) (111ms)
+[info] Resolving org.sonatype.oss#oss-parent;9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
+[debug] 	local: revision in cache: org.sonatype.oss#oss-parent;9
+[debug] 	found io.netty#netty;3.10.3.Final in maven-central
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->io.netty#netty;3.10.3.Final [compile->runtime]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->io.netty#netty;3.10.3.Final [compile->compile]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->io.netty#netty;3.10.3.Final [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d29a95a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d5d2046
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.4
 [debug] 	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.4
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.4 in sbt-chain
@@ -386,7 +408,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.netty#netty-http-pipelining;1.1.4 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#play2-reactivemongo_2.11;0.11.0.play24 [compile->default(compile)]
 [info] Resolving org.reactivemongo#play2-reactivemongo_2.11;0.11.0.play24 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58d2a35b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d2eb8cd
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#play2-reactivemongo_2.11;0.11.0.play24
 [debug] 	local: revision in cache: org.reactivemongo#play2-reactivemongo_2.11;0.11.0.play24
 [debug] 	found org.reactivemongo#play2-reactivemongo_2.11;0.11.0.play24 in sbt-chain
@@ -395,7 +417,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#play2-reactivemongo_2.11;0.11.0.play24 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#reactivemongo_2.11;0.11.0 [compile->default(compile)]
 [info] Resolving org.reactivemongo#reactivemongo_2.11;0.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65145da5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24877afd
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#reactivemongo_2.11;0.11.0
 [debug] 	local: revision in cache: org.reactivemongo#reactivemongo_2.11;0.11.0
 [debug] 	found org.reactivemongo#reactivemongo_2.11;0.11.0 in sbt-chain
@@ -404,7 +426,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#reactivemongo_2.11;0.11.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.0 [compile->default(compile)]
 [info] Resolving org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11d3733d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3566a4cf
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.0
 [debug] 	local: revision in cache: org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.0
 [debug] 	found org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.0 in sbt-chain
@@ -413,7 +435,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#reactivemongo-bson-macros_2.11;0.11.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang#scala-compiler;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@697ca15c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3983ceef
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.6
 [debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
@@ -422,7 +444,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang#scala-compiler;2.11.6 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9dc9452
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d7b9c83
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
@@ -431,7 +453,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a99ace4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1710b2a2
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
@@ -440,7 +462,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#reactivemongo-bson_2.11;0.11.0 [compile->default(compile)]
 [info] Resolving org.reactivemongo#reactivemongo-bson_2.11;0.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36db8772
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fa8aa39
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson_2.11;0.11.0
 [debug] 	local: revision in cache: org.reactivemongo#reactivemongo-bson_2.11;0.11.0
 [debug] 	found org.reactivemongo#reactivemongo-bson_2.11;0.11.0 in sbt-chain
@@ -449,16 +471,69 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.reactivemongo#reactivemongo-bson_2.11;0.11.0 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-api;2.0.2 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-api;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b72cfde
-[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.0.2
-[debug] 	local: revision in cache: org.apache.logging.log4j#log4j-api;2.0.2
-[debug] 	found org.apache.logging.log4j#log4j-api;2.0.2 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47f93b0e
+[debug] 		tried /Users/nandpa/.ivy2/local/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.logging.log4j#log4j-api;2.0.2
+[debug] 		tried file:/Users/nandpa/.activator/repository/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.apache.logging.log4j#log4j-api;2.0.2
+[debug] 		tried file:/usr/local/bin/activator/activator-dist-1.3.12/repository/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.apache.logging.log4j#log4j-api;2.0.2
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] 	sbt-releases-repo: no ivy file found for org.apache.logging.log4j#log4j-api;2.0.2
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-api/2.0.2/ivys/ivy.xml
+[debug] 	sbt-plugins-repo: no ivy file found for org.apache.logging.log4j#log4j-api;2.0.2
+[debug] 		tried http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom
+[debug] 	maven-central: found md file for org.apache.logging.log4j#log4j-api;2.0.2
+[debug] 		=> http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom (2.0.2)
+[debug] downloading http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom ...
+[debug] 	maven-central: downloading http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom
+[debug] 	maven-central: downloading http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom
+[debug] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.0.2!log4j-api.pom(pom.original) (127ms)
+[info] Resolving org.apache.logging.log4j#log4j;2.0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.0.2 {}
+[debug] 		tried /Users/nandpa/.ivy2/local/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.logging.log4j#log4j;2.0.2
+[debug] 		tried file:/Users/nandpa/.activator/repository/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.apache.logging.log4j#log4j;2.0.2
+[debug] 		tried file:/usr/local/bin/activator/activator-dist-1.3.12/repository/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.apache.logging.log4j#log4j;2.0.2
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] 	sbt-releases-repo: no ivy file found for org.apache.logging.log4j#log4j;2.0.2
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.0.2/ivys/ivy.xml
+[debug] 	sbt-plugins-repo: no ivy file found for org.apache.logging.log4j#log4j;2.0.2
+[debug] 		tried http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom
+[debug] 	maven-central: found md file for org.apache.logging.log4j#log4j;2.0.2
+[debug] 		=> http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom (2.0.2)
+[debug] downloading http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom ...
+[debug] 	maven-central: downloading http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom
+[debug] 	maven-central: downloading http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom.sha1
+[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.pom
+[debug] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j;2.0.2!log4j.pom(pom.original) (107ms)
+[info] Resolving org.apache#apache;9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;9 {}
+[debug] sbt-chain: module revision found in cache: org.apache#apache;9
+[debug] 	local: revision in cache: org.apache#apache;9
+[debug] 		tried /Users/nandpa/.ivy2/local/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] 		tried file:/Users/nandpa/.activator/repository/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] 		tried file:/usr/local/bin/activator/activator-dist-1.3.12/repository/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.0.2/jars/log4j.jar
+[debug] 		tried http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.jar
+[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0.2/log4j-2.0.2.jar
+[debug] 	found org.apache.logging.log4j#log4j-api;2.0.2 in maven-central
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-api;2.0.2 [compile->runtime]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-core;2.0.2 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-core;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d9edf64
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e7ae520
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.0.2
 [debug] 	local: revision in cache: org.apache.logging.log4j#log4j-core;2.0.2
 [debug] 	found org.apache.logging.log4j#log4j-core;2.0.2 in sbt-chain
@@ -467,7 +542,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-to-slf4j;2.0.2 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-to-slf4j;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21a40863
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40383c55
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-to-slf4j;2.0.2
 [debug] 	local: revision in cache: org.apache.logging.log4j#log4j-to-slf4j;2.0.2
 [debug] 	found org.apache.logging.log4j#log4j-to-slf4j;2.0.2 in sbt-chain
@@ -1513,7 +1588,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.logging.log4j#log4j-to-slf4j;2.0.2 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.typesafe.play#play-test_2.11;2.4.0 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51a21a81
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79c4b4a9
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.4.0
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.11;2.4.0
 [debug] 	found com.typesafe.play#play-test_2.11;2.4.0 in sbt-chain
@@ -1531,7 +1606,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cd7d5c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@663c6c94
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -1540,7 +1615,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.novocode#junit-interface;0.11 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@323db8d0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cea865f
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
@@ -1549,7 +1624,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.novocode#junit-interface;0.11 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48b9dae3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@363f3ccf
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	local: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
@@ -1558,7 +1633,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.guava#guava;18.0 [test->default(compile)]
 [info] Resolving com.google.guava#guava;18.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e03139b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fcb0428
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;18.0
 [debug] 	local: revision in cache: com.google.guava#guava;18.0
 [debug] 	found com.google.guava#guava;18.0 in sbt-chain
@@ -1567,7 +1642,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.guava#guava;18.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.code.findbugs#jsr305;2.0.3 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29d16892
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d2a18d9
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	local: revision in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
@@ -1576,7 +1651,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.code.findbugs#jsr305;2.0.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@900803e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4319492
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.10.3
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.10.3
 [debug] 	found org.fluentlenium#fluentlenium-core;0.10.3 in sbt-chain
@@ -1585,7 +1660,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.fluentlenium#fluentlenium-core;0.10.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74f23350
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@425ee815
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-java;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.44.0 in sbt-chain
@@ -1594,7 +1669,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-java;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@182a7224
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76f20999
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 in sbt-chain
@@ -1603,7 +1678,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-chrome-driver;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1398062
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46e63324
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.44.0 in sbt-chain
@@ -1612,7 +1687,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-remote-driver;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f44b49a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@899bb6e
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -1621,7 +1696,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.code.gson#gson;2.3 [test->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64f9e549
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e86e987
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3
 [debug] 	local: revision in cache: com.google.code.gson#gson;2.3
 [debug] 	found com.google.code.gson#gson;2.3 in sbt-chain
@@ -1630,7 +1705,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->com.google.code.gson#gson;2.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28aa879b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25b8c279
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.44.0 in sbt-chain
@@ -1639,7 +1714,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-api;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.httpcomponents#httpclient;4.3.4 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58d3b28f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e4e5230
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.4
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.3.4
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.4 in sbt-chain
@@ -1648,7 +1723,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.httpcomponents#httpclient;4.3.4 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.httpcomponents#httpcore;4.3.2 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4622290a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43a6089c
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3.2
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.3.2
 [debug] 	found org.apache.httpcomponents#httpcore;4.3.2 in sbt-chain
@@ -1657,7 +1732,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.httpcomponents#httpcore;4.3.2 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e36a841
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17297450
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
@@ -1666,7 +1741,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4029f5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6839f99f
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
@@ -1675,7 +1750,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55501db7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ac0239c
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
@@ -1684,7 +1759,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a9ac47e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53127df8
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
@@ -1693,7 +1768,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ff93934
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65c0dd72
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 in sbt-chain
@@ -1702,7 +1777,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ac66e61
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a59a3fe
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.15
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.15 in sbt-chain
@@ -1711,7 +1786,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.htmlunit#htmlunit;2.15 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fa19550
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2183b5a1
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	local: revision in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
@@ -1720,7 +1795,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xalan#serializer;2.7.1 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f3882eb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6af94fd8
 [debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.1
 [debug] 	local: revision in cache: xalan#serializer;2.7.1
 [debug] 	found xalan#serializer;2.7.1 in sbt-chain
@@ -1729,7 +1804,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->xalan#serializer;2.7.1 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cf9b67d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ac1a733
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -1738,7 +1813,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.httpcomponents#httpmime;4.3.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2304cba2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29a43bb5
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.3
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.3.3
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.3 in sbt-chain
@@ -1747,7 +1822,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.apache.httpcomponents#httpmime;4.3.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.15 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20d289d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73f0a1e6
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.15
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.15
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.15 in sbt-chain
@@ -1756,7 +1831,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.htmlunit#htmlunit-core-js;2.15 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ccb7180
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b4a6fe4
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.21
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.21
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.21 in sbt-chain
@@ -1765,7 +1840,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.nekohtml#nekohtml;1.9.21 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25b9d74b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c224d77
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.14
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.14
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.14 in sbt-chain
@@ -1774,7 +1849,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->net.sourceforge.cssparser#cssparser;0.9.14 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@448ecc1f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e9a77c7
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -1783,7 +1858,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-io#commons-io;2.4 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3529060f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f876dea
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	local: revision in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
@@ -1792,7 +1867,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->commons-io#commons-io;2.4 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73db8abc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fe2dc3a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.15.v20140411
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-websocket;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 in sbt-chain
@@ -1801,7 +1876,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-websocket;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c24b784
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6daef977
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.15.v20140411
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.15.v20140411 in sbt-chain
@@ -1810,7 +1885,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-util;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8bc7ef2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b1ffa9a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.15.v20140411
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.15.v20140411 in sbt-chain
@@ -1819,7 +1894,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-io;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.15.v20140411 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@569caff8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10faca18
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.15.v20140411
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.15.v20140411
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.15.v20140411 in sbt-chain
@@ -1828,7 +1903,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.eclipse.jetty#jetty-http;8.1.15.v20140411 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@761c5ee1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62327b25
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 in sbt-chain
@@ -1837,7 +1912,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-firefox-driver;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7db1aa5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7edb748
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.44.0 in sbt-chain
@@ -1846,7 +1921,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-ie-driver;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6920eeb0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a34a15f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.44.0 in sbt-chain
@@ -1855,7 +1930,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-safari-driver;2.44.0 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e97d910
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fa9e3bb
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -1864,7 +1939,7 @@
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0->org.seleniumhq.selenium#selenium-support;2.44.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.44.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@371174b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69343a22
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.44.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.44.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.44.0 in sbt-chain
@@ -4657,8 +4732,8 @@
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.4.0!play-functional_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.4.0!play-functional_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.4.0!play-functional_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.4.0!play-datacommons_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.4.0!play-datacommons_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.4.0!play-datacommons_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.4.0!play-datacommons_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.7!joda-time.jar
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.7!joda-time.jar(src)
@@ -4975,7 +5050,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar(src)
 [debug] 	[NOT REQUIRED] net.contentobjects.jnotify#jnotify;0.94-play-1!jnotify.jar(src)
-[debug] :: resolution report :: resolve 1048ms :: artifacts dl 675ms
+[debug] :: resolution report :: resolve 7402ms :: artifacts dl 806ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -4996,4 +5071,4 @@
 [debug] 	report for reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0 pom produced in /Users/nandpa/Documents/Intellij/ScalaPlayDemo/target/resolution-cache/reports/reactivemongo-demo-app-reactivemongo-demo-app$sources_javadoc_2.11-pom.xml
 [debug] 	report for reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0 scala-tool produced in /Users/nandpa/Documents/Intellij/ScalaPlayDemo/target/resolution-cache/reports/reactivemongo-demo-app-reactivemongo-demo-app$sources_javadoc_2.11-scala-tool.xml
 [debug] 	report for reactivemongo-demo-app#reactivemongo-demo-app$sources_javadoc_2.11;0.11.0 fork-run produced in /Users/nandpa/Documents/Intellij/ScalaPlayDemo/target/resolution-cache/reports/reactivemongo-demo-app-reactivemongo-demo-app$sources_javadoc_2.11-fork-run.xml
-[debug] 	resolve done (1048ms resolve - 675ms download)
+[debug] 	resolve done (7402ms resolve - 806ms download)
