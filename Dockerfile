@@ -1,13 +1,30 @@
+#
+# Scala and sbt Dockerfile
+#
+# https://github.com/hseeberger/scala-sbt
+#
+
+# Pull base image
 FROM java:8
-MAINTAINER Nandini Parimi <nandinicbit@gmail.com>
 
+ENV SCALA_VERSION 2.11.8
+ENV SBT_VERSION 0.13.13
 
-RUN curl -O http://downloads.typesafe.com/typesafe-activator/1.3.6/typesafe-activator-1.3.6.zip
-RUN unzip typesafe-activator-1.3.6.zip -d / && rm typesafe-activator-1.3.6.zip && chmod a+x /activator-1.3.6/activator
-ENV PATH $PATH:/activator-1.3.6
+# Install Scala
+## Piping curl directly in tar
+RUN \
+  curl -fsL http://downloads.typesafe.com/scala/$SCALA_VERSION/scala-$SCALA_VERSION.tgz | tar xfz - -C /root/ && \
+  echo >> /root/.bashrc && \
+  echo 'export PATH=~/scala-$SCALA_VERSION/bin:$PATH' >> /root/.bashrc
 
-EXPOSE 9000 8888
-RUN mkdir /app
-WORKDIR /app
+# Install sbt
+RUN \
+  curl -L -o sbt-$SBT_VERSION.deb http://dl.bintray.com/sbt/debian/sbt-$SBT_VERSION.deb && \
+  dpkg -i sbt-$SBT_VERSION.deb && \
+  rm sbt-$SBT_VERSION.deb && \
+  apt-get update && \
+  apt-get install sbt && \
+  sbt sbtVersion
 
-CMD ["activator", "run"]
+# Define working directory
+WORKDIR /root
