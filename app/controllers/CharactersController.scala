@@ -233,7 +233,7 @@ class CharactersController  @Inject() (
 
 
   def delete(id: String) = Action.async {
-    // let's collect all the attachments matching that match the article to delete
+    // let's collect all the attachments matching that match the article to delete -- adding for testing
     gridFS.find[JsObject, JSONReadFile](Json.obj("article" -> id)).
       collect[List]().flatMap { files =>
       // for each attachment, delete their chunks and then their file entry
