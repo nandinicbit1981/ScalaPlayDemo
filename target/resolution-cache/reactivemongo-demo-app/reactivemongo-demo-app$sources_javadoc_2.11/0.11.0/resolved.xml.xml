@@ -4,7 +4,7 @@
 		module="reactivemongo-demo-app$sources_javadoc_2.11"
 		revision="0.11.0"
 		status="integration"
-		publication="20161127233216"
+		publication="20161128225429"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -322,7 +322,7 @@
 			<artifact name="xalan" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="xalan" name="serializer" rev="2.7.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
-			<artifact name="serializer" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+			<artifact name="serializer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="commons-collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>

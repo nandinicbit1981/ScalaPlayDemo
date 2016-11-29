@@ -11,3 +11,7 @@ routesGenerator := InjectedRoutesGenerator
 fork in run := false
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
+
+maintainer:= "Nandini"
+
+dockerExposedPorts in Docker := Seq(9000, 9443)

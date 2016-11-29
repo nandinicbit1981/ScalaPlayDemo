@@ -4,7 +4,7 @@
 		module="reactivemongo-demo-app$sources_2.11"
 		revision="0.11.0"
 		status="integration"
-		publication="20161127233215"
+		publication="20161128225429"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

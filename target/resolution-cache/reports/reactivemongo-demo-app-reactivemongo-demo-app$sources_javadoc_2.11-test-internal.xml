@@ -7,7 +7,7 @@
 		revision="0.11.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20161127233216"/>
+		date="20161128225429"/>
 	<dependencies>
 		<module organisation="org.reactivemongo" name="play2-reactivemongo_2.11">
 			<revision name="0.11.0.play24" status="release" pubdate="20150628074849" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://reactivemongo.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
@@ -412,7 +412,7 @@
 					<artifact name="serializer" type="jar" ext="jar" status="no" details="" size="278281" time="0" location="/Users/nandpa/.ivy2/cache/xalan/serializer/jars/serializer-2.7.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
 					</artifact>
-					<artifact name="serializer" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
+					<artifact name="serializer" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
@@ -661,7 +661,7 @@
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-api">
 			<revision name="2.0.2" status="release" pubdate="20140816222403" resolver="maven-central" artresolver="maven-central" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="49">
-				<metadata-artifact status="successful" details="" size="8626" time="127" location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom"/>
+				<metadata-artifact status="successful" details="" size="8626" time="83" location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.0.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0.2/log4j-api-2.0.2.pom"/>
 				<caller organisation="reactivemongo-demo-app" name="reactivemongo-demo-app$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="0.11.0"/>
 				<artifacts>
 					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="122755" time="0" location="/Users/nandpa/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.0.2.jar">
@@ -805,7 +805,7 @@
 		<module organisation="io.netty" name="netty">
 			<revision name="3.10.3.Final" status="release" pubdate="20150508083154" resolver="maven-central" artresolver="maven-central" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="40">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="28829" time="111" location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
+				<metadata-artifact status="successful" details="" size="28829" time="117" location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="true" original-local-location="/Users/nandpa/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
 				<caller organisation="reactivemongo-demo-app" name="reactivemongo-demo-app$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="0.11.0"/>
 				<artifacts>
 					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1324704" time="0" location="/Users/nandpa/.ivy2/cache/io.netty/netty/jars/netty-3.10.3.Final.jar">
