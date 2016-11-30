@@ -2,7 +2,7 @@ name := "reactivemongo-demo-app"
 
 version := "0.11.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.8"
 
 libraryDependencies += "org.reactivemongo" %% "play2-reactivemongo" % "0.11.0.play24"
 
