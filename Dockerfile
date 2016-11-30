@@ -26,5 +26,7 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
+EXPOSE 9000
+
 # Define working directory
 WORKDIR /root

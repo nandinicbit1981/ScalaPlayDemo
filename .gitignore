@@ -1,2 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 /project/play-fork-run.sbt
+/.idea/
+/project/target/
+/target/
