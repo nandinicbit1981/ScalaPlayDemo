@@ -26,7 +26,21 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
-EXPOSE 9000
+#Install vim
+RUN apt-get update
+RUN apt-get install -y vim
 
-# Define working directory
-WORKDIR /root
+EXPOSE 9000
+EXPOSE 8080
+
+RUN mkdir /app
+WORKDIR /app
+
+RUN git clone https://github.com/nandinicbit1981/ScalaPlayDemo.git
+WORKDIR /app/ScalaPlayDemo
+
+CMD sbt run
+RUN echo 'I am not sure if i work yet'
+
+CMD ["/bin/bash"]
+
