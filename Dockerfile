@@ -32,6 +32,7 @@ RUN apt-get install -y vim
 
 EXPOSE 9000
 EXPOSE 8080
+EXPOSE 27017
 
 RUN mkdir /app
 WORKDIR /app
