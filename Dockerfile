@@ -39,8 +39,4 @@ WORKDIR /app
 RUN git clone https://github.com/nandinicbit1981/ScalaPlayDemo.git
 WORKDIR /app/ScalaPlayDemo
 
-CMD sbt run
-RUN echo 'I am not sure if i work yet'
-
-CMD ["/bin/bash"]
-
+CMD ["sbt", "run"]
