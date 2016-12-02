@@ -108,8 +108,8 @@ $(document).ready(function() {
 
     });
 
-    $(".deleteCharacter").click(function() {
-        var id = $(this).data("id");
+    $("#deleteCharacter").click(function() {
+        var id = $("#deleteCharacter").data("id");
         delete_character("/characters/"+id);
 
     });

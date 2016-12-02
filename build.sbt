@@ -2,7 +2,7 @@ name := "reactivemongo-demo-app"
 
 version := "0.11.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.6"
 
 libraryDependencies += "org.reactivemongo" %% "play2-reactivemongo" % "0.11.0.play24"
 
@@ -11,7 +11,3 @@ routesGenerator := InjectedRoutesGenerator
 fork in run := false
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
-maintainer:= "Nandini"
-
-dockerExposedPorts in Docker := Seq(9000, 9443)
