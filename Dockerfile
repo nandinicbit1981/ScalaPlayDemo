@@ -8,7 +8,7 @@
 FROM java:8
 
 ENV SCALA_VERSION 2.11.8
-ENV SBT_VERSION 0.13.13
+ENV SBT_VERSION  0.13.12
 
 # Install Scala
 ## Piping curl directly in tar
@@ -26,7 +26,18 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
-EXPOSE 9000
+#Install vim
+RUN apt-get update
+RUN apt-get install -y vim
 
-# Define working directory
-WORKDIR /root
+EXPOSE 9000
+EXPOSE 8080
+EXPOSE 27017
+
+RUN mkdir /app
+WORKDIR /app
+
+RUN git clone https://github.com/nandinicbit1981/ScalaPlayDemo.git
+WORKDIR /app/ScalaPlayDemo
+
+CMD ["sbt", "run"]
