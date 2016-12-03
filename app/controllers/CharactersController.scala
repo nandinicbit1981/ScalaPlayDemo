@@ -25,8 +25,8 @@ import play.modules.reactivemongo.{
 MongoController, ReactiveMongoApi, ReactiveMongoComponents
 }
 
-import play.modules.reactivemongo.json._, ImplicitBSONHandlers._
-import play.modules.reactivemongo.json.collection._
+import reactivemongo.play.json._
+import reactivemongo.play.json.collection._
 
 
 /**
